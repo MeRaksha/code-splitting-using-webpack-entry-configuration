@@ -1,0 +1,29 @@
+{
+  "name": "webpack-code-splitting-demo",
+  "version": "1.0.0",
+  "description": "code splitting using webpack entry configuration",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeRaksha/code-splitting-using-webpack-entry-configuration.git"
+  },
+  "keywords": [
+    "webpack",
+    "code",
+    "splitting"
+  ],
+  "author": "raksha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MeRaksha/code-splitting-using-webpack-entry-configuration/issues"
+  },
+  "homepage": "https://github.com/MeRaksha/code-splitting-using-webpack-entry-configuration#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
