@@ -2,6 +2,14 @@
 
 Demo which uses webpack <code>entry</code> point configuration to manually split the chunks.
 
+## _Topics Covered in this Demo_
+- manually split the chunks using webpack <code>entry</code> point configuration 
+- How to prevent duplication in multiple chunks 
+
+
+### Create multiple entries :
+webpack entry configuration becomes something like this:
+
 ```sh
  entry: {
   index: './src/index.js',
@@ -20,7 +28,7 @@ entry: {
     import: './src/index.js',
     dependOn: 'shared',
   },
-  print: {
+  another: {
     import: './src/print.js',
     dependOn: 'shared',
   },
